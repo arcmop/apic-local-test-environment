@@ -43,6 +43,8 @@ Repositorio base para Local Test Environment de Datapower
 4.  Esto crea lo siguiente:
     - Una Organización llamada: **localtest**
     - Un Catálogo llamado: **sandbox**
+    - Una Aplicación: **sandbox-test-app**
+    - Una Organización consumidora: **sandbox-test-org**
     - Credenciales para probar las apis:
       ```yaml
       client id       :   X-IBM-Client-Id
