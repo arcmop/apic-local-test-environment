@@ -1,0 +1,29 @@
+info:
+  title: MiProduct01
+  name: miproduct01
+  version: 1.0.0
+apis:
+  MiApiTest01:
+    $ref: ./miapitest01.yaml
+gateways:
+  - datapower-api-gateway
+plans:
+  default:
+    title: Default Plan
+    description: Default Plan
+    approval: false
+    rate-limit:
+      value: unlimited
+    apis: {}
+visibility:
+  view:
+    enabled: true
+    type: public
+    tags: []
+    orgs: []
+  subscribe:
+    enabled: true
+    type: authenticated
+    tags: []
+    orgs: []
+product: 1.0.0

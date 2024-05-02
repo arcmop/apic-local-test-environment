@@ -1,0 +1,9 @@
+type: 'subscription'
+api_version: '2.0.0'
+name: 'misubtest01'
+title: 'misubtest01'
+state: 'enabled'
+plan: 'default'
+plan_title: 'Default Plan'
+task_urls: []
+product_url: 'REPLACEPRODUCTURL'
