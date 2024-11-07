@@ -29,7 +29,7 @@ Repositorio base para Local Test Environment de Datapower
       ```
     - Ejecutar el LTE
       ```
-      apic-lte-linux_10.0.5.2 --datapower-gateway-enabled --datapower-api-gateway-enabled
+      apic-lte-linux_10.0.5.2 start --datapower-gateway-enabled --datapower-api-gateway-enabled
       ```
     
     * Recomiendo renombrar apic-lte-linux_10.0.5.2 a apic-lte
